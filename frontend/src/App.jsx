@@ -2,7 +2,7 @@ import "./App.css";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Home from "./pages/home/Home";
-import { Route,Routes,Navigate } from "react-router-dom";
+import { Route,Routes,Navigate, Link } from "react-router-dom";
 import {Toaster} from 'react-hot-toast';
 import { useAuthContext } from "./context/AuthContext";
 
@@ -26,6 +26,7 @@ function App() {
         </Routes>
         <Toaster/>
       </div>
+      <div className="text-center bg-gray-500 text-white font-bold">Made with ♥  by <Link to="https://github.com/Himani2615" className="hover:text-gray-300"> Himani</Link></div>
     </>
   );
 }
