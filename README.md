@@ -8,19 +8,29 @@ Vibez is a real-time chat web application designed for seamless and instant mess
 # Tech Stack
 
   • Frontend: React.js, TailwindCSS, Daisy UI
+  
   • Backend: Node.js, Express.js
+  
   • Database: MongoDB
+  
   • Real-Time Communication: Socket.io
+  
   • Global State Management: Zustand
+  
   • Authentication: JWT (JSON Web Tokens)
 
 # Features
 
   • Real-Time Messaging: Instantly send and receive messages in real-time with Socket.io.
+  
   • User Authentication: Secure account creation and login with JWT.
+  
   • Online User Status: Track online users with Socket.io and React Context.
+  
   • Responsive UI: Designed with TailwindCSS and Daisy UI for a sleek, modern interface.
+  
   • Error Handling: Robust error management on both the server and client sides.
+  
   • Global State Management: Efficient state management using Zustand.
 
 # Setup Instructions
@@ -72,6 +82,7 @@ The app should now be running on your specified PORT.
 # Usage
 
   Create an Account: Sign up to create an account.
+  
   Start Messaging: Log in and start chatting with your friends or team members instantly.
 
 # Contributing
